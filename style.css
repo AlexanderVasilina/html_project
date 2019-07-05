@@ -1,3 +1,68 @@
-body{
-    background: yellow;
+body, ul{
+    margin: 0;
+    padding: 0;
 }
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    background: green;
+}
+
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header ul li a {
+    padding: 10px 15px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ header ul li a:hover{
+     background:#5c9817c9;
+ }
+ #logo{
+     height: 100px;
+     width: 800px;
+     font-size: 20px;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+
+ }
+
+ @media(max-width: 620px) {
+
+    header ul{
+        justify-content: center;
+    }
+
+    #logo{
+        diplay: none;
+    }
+
+ }
+
+
+
+
+/*
+commentariy v css
+*/
